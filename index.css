@@ -1,0 +1,80 @@
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Poppins:wght@300;400;500;800&family=Righteous&display=swap'); 
+*{
+    background-color: rgb(29, 30, 34);
+    color: aliceblue;
+}
+/* main{
+    background-image: url(./download.webp);
+    background-position: top -59% left -50%;
+    background-size: cover;
+
+    width: 100%;
+    height: 90%;
+} */
+
+.web3{
+    text-align: center;
+    padding-top: 6rem !important;
+    
+}
+.color-change,.auto-type{
+    color: rgb(107, 207, 148);
+    background-color:transparent;
+    font-family:poppins;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+.box1 h1{
+    font-family:poppins;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.box1 p{
+    color:rgb(129, 129, 129);
+    /* font-size: 1.1rem; */
+}
+.mini-box2{
+    box-shadow: 2px 2px 18px 19px rgba(43, 41, 41, 0.376);
+    background-color: transparent;
+    background-color: black !important;
+    width: 30rem;
+    height:60%;
+    position: absolute;
+    top: 5rem;
+    left: 3rem;
+    
+    /* background-color: wheat; */
+}
+span{
+    font-size: 10px;
+    text-align: center;
+    transform: translate(-50% ,-50%);
+}
+.suc{
+    
+}
+@media screen and(max-width:700px) {
+    .mini-box1{
+        box-shadow: 2px 2px 18px 19px rgba(43, 41, 41, 0.376);
+        background-color: transparent;
+        background-color: black !important;
+        width: 90rem;
+        height:10rem;
+        
+        /* background-color: wheat; */
+    }
+    .mini-box2{
+        box-shadow: 2px 2px 18px 19px rgba(43, 41, 41, 0.376);
+        background-color: transparent;
+        background-color: black !important;
+        width: 70%;
+        height:60%;
+        position: absolute;
+        top: 10rem;
+        left: 3rem;
+        
+        /* background-color: wheat; */
+    }
+}
